@@ -12,7 +12,7 @@ namespace DataSet_nonType
     {
         static void Main(string[] args)
         {
-            SqlConnection connexion = new SqlConnection("Data Source =.\\sqlexpress; Initial Catalog = demo; Integrated Security = True");
+            SqlConnection connexion = new SqlConnection("Data Source =.\\sqlexpress; Initial Catalog = demonstration; Integrated Security = True");
             SqlDataAdapter DemoDataAdapter = new SqlDataAdapter("select * from annuaire", connexion);
 
             DataSet DemoDataSet = new DataSet();
